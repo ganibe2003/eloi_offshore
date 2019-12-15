@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+    Document   : feature_a4vonardenne.xml
+    Description: This XML is used by TEM to install or upgrade the "a4vonardenne" solution.
+--><feature>
+    <name value="Von Ardenne"/>
+    <property name="feature_name" value="a4vonardenne"/>
+    <group value="package"/>
+    <guid value="F2697E0D5DEBB5CD13764B207CE75995"/>
+    <bundle value="${feature_name}Bundle.xml"/>
+    <description value="${feature_name}.description"/>
+    <include file="dataModelDependency.xml"/>
+    <relation>
+        <depends name="autocad" value="8501321DC0FBC961416EEFFDAFB3DD00"/>
+        <depends name="edaserver" value="A94F476A35E6E0EB152263D37FBA18ED"/>
+        <depends name="tcai" value="8AF70563FF67260212F6941F0D7A3915"/>
+        <depends name="vendormanagement" value="7EB052BF7B4039A2BB8C9F98009DD22D"/>
+        <depends name="cno2validationextension" value="188E54A307C57C05369D012ED8B2E9BB"/>
+        <depends name="cnosoaquery" value="63C8B80B7C5C47BA6CC2F4B9E560A6AF"/>
+    </relation>
+    <feature>
+        <!--  Feature: Data Model -->
+        <name value="Data Model"/>
+        <property name="feature_id" value="datamodel"/>
+        <property name="bmide_optional" value="false"/>
+        <property name="template_name" value="${feature_name}"/>
+        <property name="template_file" value="${template_name}_template.xml"/>
+        <root value="true"/>
+        <bundle value="${template_name}Bundle.xml"/>
+        <description value="${template_name}.description"/>
+        <guid value="59374FF0D279A4029F6D0A5B5F0BBF5C"/>
+        <include file="coreDataModel2.xml"/>
+        <include file="generatePlmxmlSchema.xml"/>
+    </feature>
+    <dependencyReferences>
+        <reference name="foundation" value="8C061DD51E13E0CB9DC4687B1A3348BE"/>
+    </dependencyReferences>
+</feature>

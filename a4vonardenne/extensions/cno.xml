@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Add>
+   <TcExtensionAttach extensionName="Cno2_precondition_validate_bomline_add" operationName="BOMLine_add"
+       isActive="true" extendableElementName="BOMLine" extendableElementType="Type"
+       extensionPointType="PreCondition" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="Cno2_precondition_validate_create" operationName="createPost#Teamcenter::CreateInput,*"
+       isActive="true" extendableElementName="Item" extendableElementType="Type" extensionPointType="PreCondition"
+       conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="Cno2_precondition_validate_create" operationName="createPost#Teamcenter::CreateInput,*"
+       isActive="true" extendableElementName="ItemRevision" extendableElementType="Type"
+       extensionPointType="PreCondition" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="Cno2_precondition_validate_revise" operationName="revise#Teamcenter::ReviseInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*$tag_t,*"
+       isActive="true" extendableElementName="ItemRevision" extendableElementType="Type"
+       extensionPointType="PreCondition" conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="Cno2_precondition_validate_saveas" operationName="saveAs#Teamcenter::SaveAsInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*$tag_t,*"
+       isActive="true" extendableElementName="Item" extendableElementType="Type" extensionPointType="PreCondition"
+       conditionName="isTrue" description=""/>
+   <TcExtensionAttach extensionName="Cno2_precondition_validate_saveas" operationName="saveAs#Teamcenter::SaveAsInput,*$std::vector&lt;Teamcenter::DeepCopyData*&gt;,*$tag_t,*"
+       isActive="true" extendableElementName="ItemRevision" extendableElementType="Type"
+       extensionPointType="PreCondition" conditionName="isTrue" description=""/>
+</Add>
+</TcBusinessData>

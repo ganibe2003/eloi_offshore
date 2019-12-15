@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataIncludes>
+    <include iconfile="A4_docrevision_green.png"/>
+    <include iconfile="A4_item_red.png"/>
+    <include iconfile="A4_item_blue.png"/>
+    <include iconfile="A4_Itemrevision_red.png"/>
+    <include iconfile="A4_itemrevision_blue.png"/>
+    <include iconfile="A4_projectsmartfolder.png"/>
+    <include iconfile="A4_doc_green.png"/>
+    <include iconfile="A4_item_orange.png"/>
+    <include iconfile="A4_itemrevision_orange.png"/>
+    <include iconfile="A4_itemrevision_darkblue.png"/>
+    <include iconfile="A4_item_darkblue.png"/>
+    <include iconfile="A4_dataset_pdf_drawing.png"/>
+    <include iconfile="A4_item_green.png"/>
+    <include iconfile="A4_itemrevision_green.png"/>
+    <include iconfile="A4_dataset_html.png"/>
+    <include iconfile="A4_dataset_step.png"/>
+    <include iconfile="A4_dataset_E3.png"/>
+    <include iconfile="A4_dataset_sat.png"/>
+    <include iconfile="A4_dataset_zip.png"/>
+    <include iconfile="A4_dataset_report.png"/>
+    <include iconfile="A4_dataset_wbpz.png"/>
+    <include iconfile="A4_folder_sap_dataview.png"/>
+    <include iconfile="A4_VIP.png"/>
+    <include iconfile="A4_M.png"/>
+    <include iconfile="A4_dataset_wscad.png"/>
+</TcBusinessDataIncludes>

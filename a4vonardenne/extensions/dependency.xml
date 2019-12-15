@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataIncludes currentTemplateVersion="11.2_4" displayName="Von Ardenne" enableOpsDataDeploy="true" guid="59374FF0D279A4029F6D0A5B5F0BBF5C" isDescriptionMandatory="false" name="a4vonardenne" optional="true" prefixes="A4_" teamcenterTemplate="false">
+    <include file="foundation_template.xml"/>
+    <include file="autocad_template.xml"/>
+    <include file="cno2validationextension_template.xml"/>
+    <include file="cnosoaquery_template.xml"/>
+    <include file="edaserver_template.xml"/>
+    <include file="tcai_template.xml"/>
+    <include file="vendormanagement_template.xml"/>
+</TcBusinessDataIncludes>

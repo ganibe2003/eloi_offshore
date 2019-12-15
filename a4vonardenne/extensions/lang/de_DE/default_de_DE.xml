@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessDataLocalization xmlns="http://teamcenter.com/BusinessModel/TcBusinessDataLocalization"
+    Date="">
+<Add>
+   <key locale="de_DE" id="BusinessObject{::}A4_AdditionalFormats_rel" status="Approved">Zusätzliche Formate</key>
+   <key locale="de_DE" id="BusinessObject{::}A4_AltRep_Design" status="Approved">VA AltRep</key>
+   <key locale="de_DE" id="BusinessObject{::}A4_Attaches_rel" status="Approved">Angehangen</key>
+   <key locale="de_DE" id="BusinessObject{::}A4_Change_ItemRevision" status="Approved">VA_Änderungsnummer Revision</key>
+   <key locale="de_DE" id="BusinessObject{::}A4_Change_Item" status="Approved">VA Änderungsnummer</key>
+   <key locale="de_DE" id="BusinessObject{::}A4_ChangetoDesign_rel" status="Approved">Betroffenes Element</key>
+   <key locale="de_DE" id="BusinessObject{::}A4_DesigntoAltRep_rel" status="Approved">Repräsentationen</key>
+   <key locale="de_DE" id="BusinessObject{::}A4_DesigntoDoc_rel" status="Approved">Abhängige Dokumente</key>
+   <key locale="de_DE" id="BusinessObject{::}A4_DoctoDesign_rel" status="Approved">Abhängige Designs</key>
+   <key locale="de_DE" id="BusinessObject{::}A4_DoctoDoc_rel" status="Approved">Abhängige Dokumente</key>
+   <key locale="de_DE" id="BusinessObject{::}A4_DocumentRevision" status="Approved">VA Dokument Revision</key>
+   <key locale="de_DE" id="BusinessObject{::}A4_Document" status="Approved">VA Dokument</key>
+   <key locale="de_DE" id="BusinessObject{::}A4_E3_Document" status="Approved">E3P Dokument</key>
+   <key locale="de_DE" id="BusinessObject{::}A4_ECADFormats_rel" status="Approved">ECAD Formate</key>
+   <key locale="de_DE" id="BusinessObject{::}A4_E_DesignRevision" status="Approved">VA Fertigungsteil Revision</key>
+   <key locale="de_DE" id="BusinessObject{::}A4_E_Design" status="Approved">VA Fertigungsteil</key>
+   <key locale="de_DE" id="BusinessObject{::}A4_Folder" status="Approved">Ordner</key>
+   <key locale="de_DE" id="BusinessObject{::}A4_HTML_Archive" status="Approved">HTML Archiv</key>
+   <key locale="de_DE" id="BusinessObject{::}A4_PDF_Drawing" status="Approved">PDF Zeichnung</key>
+   <key locale="de_DE" id="BusinessObject{::}A4_ProductRevision" status="Approved">VA Kopfartikel Revision</key>
+   <key locale="de_DE" id="BusinessObject{::}A4_Product" status="Approved">VA Kopfartikel</key>
+   <key locale="de_DE" id="BusinessObject{::}A4_ProjectRevision" status="Approved">VA Projekt Revision</key>
+   <key locale="de_DE" id="BusinessObject{::}A4_Project" status="Approved">VA Projekt</key>
+   <key locale="de_DE" id="BusinessObject{::}A4_ProjtoDoc_rel" status="Approved">Dokumente</key>
+   <key locale="de_DE" id="BusinessObject{::}A4_ProjtoProd_rel" status="Approved">Produkt</key>
+   <key locale="de_DE" id="BusinessObject{::}A4_SAT" status="Approved">SAT - Datei</key>
+   <key locale="de_DE" id="BusinessObject{::}A4_STEP" status="Approved">STEP - Datei</key>
+   <key locale="de_DE" id="BusinessObject{::}A4_S_DesignRevision" status="Approved">VA Kaufteil Revision</key>
+   <key locale="de_DE" id="BusinessObject{::}A4_S_Design" status="Approved">VA Kaufteil</key>
+   <key locale="de_DE" id="BusinessObject{::}A4_old_versions_rel" status="Approved">Nebendokumente</key>
+   <key locale="de_DE" id="BusinessObject{::}A4_wf_controlform" status="Approved">WF Steuerformular</key>
+   <key locale="de_DE" id="BusinessObject{::}A4_wf_itemattr_tosap" status="Approved">Item Properties</key>
+   <key locale="de_DE" id="BusinessObject{::}TCAI2_Asm2SubLODPrt_relation" status="Approved">Ersatzkomponente</key>
+   <key locale="de_DE" id="BusinessObject{::}TCAI81_ref_link_relation" status="Approved">OLE-Beziehung</key>
+   <key locale="de_DE" id="BusinessObject{::}TCAI_D2A_relation" status="Approved">platzierte Baugruppe</key>
+   <key locale="de_DE" id="BusinessObject{::}TCAI_D2PS_relation" status="Approved">platzierte Präsentation</key>
+   <key locale="de_DE" id="BusinessObject{::}TCAI_D2PT_relation" status="Approved">platziertes Bauteil</key>
+   <key locale="de_DE" id="BusinessObject{::}TCAI_DERIVEDASSEMBLY_relation" status="Approved">abgeleitete Komponente</key>
+   <key locale="de_DE" id="BusinessObject{::}TCAI_DERIVED_relation" status="Approved">abgeleitete Komponente</key>
+   <key locale="de_DE" id="BusinessObject{::}TCAI_PS2A_relation" status="Approved">plazierte Baugruppe</key>
+   <key locale="de_DE" id="BusinessObject{::}TCAI_iPart2Factory_relation" status="Approved">Fabrikteil</key>
+   <key locale="de_DE" id="LOVValue{::}A4_mat_mechanical_design{::}General" status="Approved">Allgemein</key>
+   <key locale="de_DE" id="LOVValue{::}A4_mat_mechanical_design{::}Non-ferrous Metals"
+       status="Approved">Nichteisenmetalle</key>
+   <key locale="de_DE" id="LOVValue{::}A4_mat_mechanical_design{::}Plastics" status="Approved">Kunststoffe</key>
+   <key locale="de_DE" id="LOVValue{::}A4_mat_mechanical_design{::}Standard Part"
+       status="Approved">Normteil</key>
+   <key locale="de_DE" id="LOVValue{::}A4_mat_mechanical_design{::}Steel" status="Approved">Stahl</key>
+   <key locale="de_DE" id="LOVValue{::}A4_mat_mechanical_design{::}stainless Steel"
+       status="Approved">Edelstahl rostfrei</key>
+   <key locale="de_DE" id="LOVValue{::}A4_material{::}----- Materials to be selected in electrical Design -----"
+       status="Approved">----- in der elektrischen Konstruktion auszuwählende Werkstoffe -----</key>
+   <key locale="de_DE" id="LOVValue{::}A4_material{::}----- Materials to be selected in mechanical Design -----"
+       status="Approved">----- in der mechanischen Konstruktion auszuwählende Werkstoffe -----</key>
+   <key locale="de_DE" id="LOVValue{::}A4_yes_no{::}no" status="Approved">Nein</key>
+   <key locale="de_DE" id="LOVValue{::}A4_yes_no{::}yes" status="Approved">Ja</key>
+   <key locale="de_DE" id="LOVValue{::}A4_yes{::}yes" status="Approved">Ja</key>
+   <key locale="de_DE" id="Property{::}A4_AltRep_DesignRevision{::}a4_altrep_to_design_rtp"
+       status="Approved">Original Design</key>
+   <key locale="de_DE" id="Property{::}A4_AltRep_DesignRevision{::}a4_baseuom_rtp"
+       status="Approved">Basismengeneinheit</key>
+   <key locale="de_DE" id="Property{::}A4_AltRep_DesignRevision{::}a4_classification_rtp"
+       status="Approved">Klassifizierung</key>
+   <key locale="de_DE" id="Property{::}A4_AltRep_DesignRevision{::}a4_comment_rtp"
+       status="Approved">Zus.-Angaben Bestellg.</key>
+   <key locale="de_DE" id="Property{::}A4_AltRep_DesignRevision{::}a4_commoditygroup_rtp"
+       status="Approved">Warengruppe</key>
+   <key locale="de_DE" id="Property{::}A4_AltRep_DesignRevision{::}a4_critical_part_rtp"
+       status="Approved">kritisches Bauteil</key>
+   <key locale="de_DE" id="Property{::}A4_AltRep_DesignRevision{::}a4_drawingno_rtp"
+       status="Approved">Zeichnungs-Nr.</key>
+   <key locale="de_DE" id="Property{::}A4_AltRep_DesignRevision{::}a4_e3entry_rtp"
+       status="Approved">E3-Entry</key>
+   <key locale="de_DE" id="Property{::}A4_AltRep_DesignRevision{::}a4_itemid_rtp"
+       status="Approved">ItemID vom Original</key>
+   <key locale="de_DE" id="Property{::}A4_AltRep_DesignRevision{::}a4_kindofmaterial_rtp"
+       status="Approved">Materialart</key>
+   <key locale="de_DE" id="Property{::}A4_AltRep_DesignRevision{::}a4_manufacturer_rtp"
+       status="Approved">Hersteller</key>
+   <key locale="de_DE" id="Property{::}A4_AltRep_DesignRevision{::}a4_manufacturerpartno_rtp"
+       status="Approved">Herstellerteilenr.</key>
+   <key locale="de_DE" id="Property{::}A4_AltRep_DesignRevision{::}a4_manufacturertype_rtp"
+       status="Approved">Typ Hersteller</key>
+   <key locale="de_DE" id="Property{::}A4_AltRep_DesignRevision{::}a4_material_rtp"
+       status="Approved">Werkstoff</key>
+   <key locale="de_DE" id="Property{::}A4_AltRep_DesignRevision{::}a4_matshorttext_en_rtp"
+       status="Approved">Kurztext EN</key>
+   <key locale="de_DE" id="Property{::}A4_AltRep_DesignRevision{::}a4_matshorttext_zh_rtp"
+       status="Approved">Kurztext ZH</key>
+   <key locale="de_DE" id="Property{::}A4_AltRep_DesignRevision{::}a4_netweight_rtp"
+       status="Approved">Nettogewicht</key>
+   <key locale="de_DE" id="Property{::}A4_AltRep_DesignRevision{::}a4_norm_rtp" status="Approved">Norm</key>
+   <key locale="de_DE" id="Property{::}A4_AltRep_DesignRevision{::}a4_note_rtp" status="Approved">Notiz</key>
+   <key locale="de_DE" id="Property{::}A4_AltRep_DesignRevision{::}a4_object_name_rtp"
+       status="Approved">Kurztext DE</key>
+   <key locale="de_DE" id="Property{::}A4_AltRep_DesignRevision{::}a4_object_type_rtp"
+       status="Approved">Original Typ</key>
+   <key locale="de_DE" id="Property{::}A4_AltRep_DesignRevision{::}a4_others_rtp"
+       status="Approved">Sonstiges</key>
+   <key locale="de_DE" id="Property{::}A4_AltRep_DesignRevision{::}a4_replacedby_rtp"
+       status="Approved">Ersetzt durch</key>
+   <key locale="de_DE" id="Property{::}A4_AltRep_DesignRevision{::}a4_replacementfor_rtp"
+       status="Approved">Ersatz für</key>
+   <key locale="de_DE" id="Property{::}A4_AltRep_DesignRevision{::}a4_sapno_rtp" status="Approved">SAP-Materialnummer</key>
+   <key locale="de_DE" id="Property{::}A4_AltRep_DesignRevision{::}a4_semifinishedproduct_rtp"
+       status="Approved">Halbzeug</key>
+   <key locale="de_DE" id="Property{::}A4_AltRep_DesignRevision{::}a4_similar_part_rtp"
+       status="Approved">ähnliches SAP-Material</key>
+   <key locale="de_DE" id="Property{::}A4_AltRep_DesignRevision{::}a4_size_rtp" status="Approved">Größe/Abmessung</key>
+   <key locale="de_DE" id="Property{::}A4_AltRep_DesignRevision{::}a4_techtype_altrep"
+       status="Approved">Technischer Typ (Master)</key>
+   <key locale="de_DE" id="Property{::}A4_Change_ItemRevision{::}a4_noticenumber_cp"
+       status="Approved">Meldungsnummer</key>
+   <key locale="de_DE" id="Property{::}A4_Change_ItemRevision{::}a4_sap_ecn_trans_date"
+       status="Approved">SAP ECN Transferdatum</key>
+   <key locale="de_DE" id="Property{::}A4_Change_ItemRevision{::}object_name" status="Approved">ECR-Beschreibung</key>
+   <key locale="de_DE" id="Property{::}A4_Change_Item{::}item_id" status="Approved">Änderungsnummer</key>
+   <key locale="de_DE" id="Property{::}A4_Change_Item{::}object_name" status="Approved">ECR-Beschreibung</key>
+   <key locale="de_DE" id="Property{::}A4_DocumentRevision{::}a4_doc_to_design_rtp"
+       status="Approved">Abhängige Designs RTP</key>
+   <key locale="de_DE" id="Property{::}A4_DocumentRevision{::}a4_shorttext_en" status="Approved">Kurztext EN</key>
+   <key locale="de_DE" id="Property{::}A4_DocumentRevision{::}a4_shorttext_zh" status="Approved">Kurztext ZH</key>
+   <key locale="de_DE" id="Property{::}A4_DocumentRevision{::}object_name" status="Approved">Kurztext DE</key>
+   <key locale="de_DE" id="Property{::}A4_Document{::}object_name" status="Approved">Kurztext DE</key>
+   <key locale="de_DE" id="Property{::}A4_E_DesignRevision{::}a4_alive_cp" status="Approved">Lebend</key>
+   <key locale="de_DE" id="Property{::}A4_E_DesignRevision{::}a4_changeno_rtp" status="Approved">Änderungsnummer</key>
+   <key locale="de_DE" id="Property{::}A4_E_DesignRevision{::}a4_design_to_change_rtp"
+       status="Approved">Änderungsobjekt</key>
+   <key locale="de_DE" id="Property{::}A4_E_DesignRevision{::}a4_e3projectname" status="Approved">E3 Projekt-Name</key>
+   <key locale="de_DE" id="Property{::}A4_E_DesignRevision{::}a4_exclusive_cp" status="Approved">exklusive Verwendung</key>
+   <key locale="de_DE" id="Property{::}A4_E_DesignRevision{::}a4_idea_cp" status="Approved">Erfindungsidee</key>
+   <key locale="de_DE" id="Property{::}A4_E_DesignRevision{::}a4_kindofmaterial_cp"
+       status="Approved">Materialart</key>
+   <key locale="de_DE" id="Property{::}A4_E_DesignRevision{::}a4_licenseagreement_cp"
+       status="Approved">Lizenzvereinbarung</key>
+   <key locale="de_DE" id="Property{::}A4_E_DesignRevision{::}a4_papersize" status="Approved">Blattformat (Papiergröße)</key>
+   <key locale="de_DE" id="Property{::}A4_E_DesignRevision{::}a4_plotdate" status="Approved">Plotdatum</key>
+   <key locale="de_DE" id="Property{::}A4_E_DesignRevision{::}a4_refno_cp" status="Approved">Aktenzeichen</key>
+   <key locale="de_DE" id="Property{::}A4_E_DesignRevision{::}a4_size" status="Approved">Größe/Abmessung</key>
+   <key locale="de_DE" id="Property{::}A4_E_Design{::}a4_alive" status="Approved">Lebend</key>
+   <key locale="de_DE" id="Property{::}A4_E_Design{::}a4_exclusive" status="Approved">exklusive Verwendung</key>
+   <key locale="de_DE" id="Property{::}A4_E_Design{::}a4_idea" status="Approved">Erfindungsidee</key>
+   <key locale="de_DE" id="Property{::}A4_E_Design{::}a4_licenseagreement" status="Approved">Lizenzvereinbarung</key>
+   <key locale="de_DE" id="Property{::}A4_E_Design{::}a4_refno" status="Approved">Aktenzeichen</key>
+   <key locale="de_DE" id="Property{::}A4_E_Design{::}object_name" status="Approved">Kurztext DE</key>
+   <key locale="de_DE" id="Property{::}A4_ProductRevision{::}a4_changeno_rtp" status="Approved">Änderungsnummer</key>
+   <key locale="de_DE" id="Property{::}A4_ProductRevision{::}a4_changereason_freetext"
+       status="Approved">Freitext Änderungsgrund</key>
+   <key locale="de_DE" id="Property{::}A4_ProductRevision{::}a4_changereason" status="Approved">Änderungsgrund</key>
+   <key locale="de_DE" id="Property{::}A4_ProductRevision{::}a4_classification_cp"
+       status="Approved">Klassifizierung</key>
+   <key locale="de_DE" id="Property{::}A4_ProductRevision{::}a4_commoditygroup_cp"
+       status="Approved">Warengruppe</key>
+   <key locale="de_DE" id="Property{::}A4_ProductRevision{::}a4_design_to_change_rtp"
+       status="Approved">Änderungsobjekt</key>
+   <key locale="de_DE" id="Property{::}A4_ProductRevision{::}a4_kindofmaterial_cp"
+       status="Approved">Materialart</key>
+   <key locale="de_DE" id="Property{::}A4_ProductRevision{::}a4_matshorttext_en" status="Approved">Materialkurztext EN</key>
+   <key locale="de_DE" id="Property{::}A4_ProductRevision{::}a4_matshorttext_zh" status="Approved">Materialkurztext ZH</key>
+   <key locale="de_DE" id="Property{::}A4_ProductRevision{::}a4_netweight" status="Approved">Nettogewicht</key>
+   <key locale="de_DE" id="Property{::}A4_ProductRevision{::}a4_note" status="Approved">Notiz</key>
+   <key locale="de_DE" id="Property{::}A4_ProductRevision{::}a4_others" status="Approved">Sonstiges</key>
+   <key locale="de_DE" id="Property{::}A4_ProductRevision{::}a4_sapno_cp" status="Approved">SAP-Materialnummer</key>
+   <key locale="de_DE" id="Property{::}A4_ProductRevision{::}a4_structure_revisions"
+       status="Approved">VA Stücklistenansichtsänderungsstände</key>
+   <key locale="de_DE" id="Property{::}A4_ProductRevision{::}a4_techtype" status="Approved">Technischer Typ</key>
+   <key locale="de_DE" id="Property{::}A4_ProductRevision{::}object_desc" status="Approved">Zus.-Angaben Bestellg.</key>
+   <key locale="de_DE" id="Property{::}A4_ProductRevision{::}object_desc" status="Approved">Zus.-Angaben Bestellg.</key>
+   <key locale="de_DE" id="Property{::}A4_ProductRevision{::}object_desc" status="Approved">Zus.-Angaben Bestellg.</key>
+   <key locale="de_DE" id="Property{::}A4_ProductRevision{::}object_name" status="Approved">Materialkurztext DE</key>
+   <key locale="de_DE" id="Property{::}A4_Product{::}a4_baseuom" status="Approved">EX - Basismengeneinheit</key>
+   <key locale="de_DE" id="Property{::}A4_Product{::}a4_classification" status="Approved">Klassifizierung</key>
+   <key locale="de_DE" id="Property{::}A4_Product{::}a4_commoditygroup" status="Approved">Warengruppe</key>
+   <key locale="de_DE" id="Property{::}A4_Product{::}a4_sapno" status="Approved">SAP-Materialnummer</key>
+   <key locale="de_DE" id="Property{::}A4_Product{::}object_name" status="Approved">Materialkurztext DE</key>
+   <key locale="de_DE" id="Property{::}A4_Project{::}a4_application" status="Approved">Anwendung</key>
+   <key locale="de_DE" id="Property{::}A4_Project{::}a4_cpelectrics" status="Approved">AP Elektrik</key>
+   <key locale="de_DE" id="Property{::}A4_Project{::}a4_cpmechanics" status="Approved">AP Mechanik</key>
+   <key locale="de_DE" id="Property{::}A4_Project{::}a4_cpproject" status="Approved">AP Projekt</key>
+   <key locale="de_DE" id="Property{::}A4_Project{::}a4_customer" status="Approved">Kunde</key>
+   <key locale="de_DE" id="Property{::}A4_Project{::}a4_devicetype" status="Approved">Geräte- / Anlagentyp</key>
+   <key locale="de_DE" id="Property{::}A4_Project{::}a4_documents_proj_rtp" status="Approved">Dokumente</key>
+   <key locale="de_DE" id="Property{::}A4_Project{::}a4_enddate" status="Approved">Endtermin</key>
+   <key locale="de_DE" id="Property{::}A4_Project{::}a4_latest_proj_revs_rtp" status="Approved">PRJ Letzte Revisionen</key>
+   <key locale="de_DE" id="Property{::}A4_Project{::}a4_latest_rel_proj_revs_rtp"
+       status="Approved">PRJ Letzte freigegebene Revisionen</key>
+   <key locale="de_DE" id="Property{::}A4_Project{::}a4_product_proj_rtp" status="Approved">Produkt</key>
+   <key locale="de_DE" id="Property{::}A4_Project{::}a4_proj_cad_drawings_rtp" status="Approved">PRJ CAD-Zeichnungen</key>
+   <key locale="de_DE" id="Property{::}A4_Project{::}a4_projectnote" status="Approved">Notiz</key>
+   <key locale="de_DE" id="Property{::}A4_Project{::}a4_projecttype" status="Approved">Projekt-Typ</key>
+   <key locale="de_DE" id="Property{::}A4_Project{::}a4_startdate" status="Approved">Starttermin</key>
+   <key locale="de_DE" id="Property{::}A4_Project{::}a4_topic" status="Approved">Thema</key>
+   <key locale="de_DE" id="Property{::}A4_Project{::}object_name" status="Approved">Gerätenummer</key>
+   <key locale="de_DE" id="Property{::}A4_S_DesignRevision{::}a4_changeno_rtp" status="Approved">Änderungsnummer</key>
+   <key locale="de_DE" id="Property{::}A4_S_DesignRevision{::}a4_design_to_change_rtp"
+       status="Approved">Änderungsobjekt</key>
+   <key locale="de_DE" id="Property{::}A4_S_DesignRevision{::}a4_kindofmaterial_cp"
+       status="Approved">Materialart</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_approval_date" status="Approved">Freigegeben am</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_approver2" status="Approved">Freigegeben von</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_approver" status="Approved">Freigegeben von (intern)</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_changereason_freetext"
+       status="Approved">Freitext Änderungsgrund</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_changereason" status="Approved">Änderungsgrund</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_checked_by2" status="Approved">Geprüft von</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_checked_by" status="Approved">Geprüft von (intern)</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_checked_date" status="Approved">Geprüft am</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_classification_cp"
+       status="Approved">Klassifizierung</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_commoditygroup_cp"
+       status="Approved">Warengruppe</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_critical_part_cp"
+       status="Approved">kritisches Bauteil</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_dimension_deviation"
+       status="Approved">Abweichung XYZ</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_dimension_unit"
+       status="Approved">Einheit für Abmessung</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_dimension_x" status="Approved">Abmessung X</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_dimension_y" status="Approved">Abmessung Y</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_dimension_z" status="Approved">Abmessung Z</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_drawingno" status="Approved">Zeichnungs-Nr.</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_drw_status" status="Approved">Zeichnungsstatus</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_e3_ds_name2_cp"
+       status="Approved">E3-Datasetname</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_ecadweight" status="Approved">eCAD-Gewicht</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_imember_rtp" status="Approved">iPart Mitglied</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_manufacturerpartno"
+       status="Approved">Herstellerteilenr.</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_manufacturertype"
+       status="Approved">Typ Hersteller</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_manufacturer" status="Approved">Hersteller</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_material" status="Approved">Werkstoff</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_matshorttext_en"
+       status="Approved">Materialkurztext EN</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_matshorttext_zh"
+       status="Approved">Materialkurztext ZH</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_mcadweight" status="Approved">mCAD-Gewicht</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_netweight" status="Approved">Nettogewicht</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_note" status="Approved">Notiz</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_noticeforusagenote_cp"
+       status="Approved">Notiz zum Verwendungshinweis</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_others" status="Approved">Sonstiges</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_replacedby_cp" status="Approved">Ersetzt durch</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_replacementfor_cp"
+       status="Approved">Ersatz für</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_sapno_cp" status="Approved">SAP-Materialnummer</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_semifinishedproduct"
+       status="Approved">Halbzeug</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_similar_part_cp"
+       status="Approved">ähnliches SAP-Material</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_structure_revisions"
+       status="Approved">VA Stücklistenansichtsänderungsstände</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_techtype_ext" status="Approved">Erweiterung</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_techtype" status="Approved">Technischer Typ</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_usagenote_cp" status="Approved">Verwendungshinweis</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}a4_weight_for_bom_cp"
+       status="Approved">keine Massenermittlung über STL</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}object_desc" status="Approved">Zus.-Angaben Bestellg.</key>
+   <key locale="de_DE" id="Property{::}A4_VA_DesignRevision{::}object_name" status="Approved">Materialkurztext DE</key>
+   <key locale="de_DE" id="Property{::}A4_VA_Design{::}a4_baseuom" status="Approved">EX - Basismengeneinheit</key>
+   <key locale="de_DE" id="Property{::}A4_VA_Design{::}a4_classification" status="Approved">Klassifizierung</key>
+   <key locale="de_DE" id="Property{::}A4_VA_Design{::}a4_commoditygroup" status="Approved">Warengruppe</key>
+   <key locale="de_DE" id="Property{::}A4_VA_Design{::}a4_critical_part" status="Approved">kritisches Bauteil</key>
+   <key locale="de_DE" id="Property{::}A4_VA_Design{::}a4_e3docs_rtp" status="Approved">E3 Dokumente</key>
+   <key locale="de_DE" id="Property{::}A4_VA_Design{::}a4_kindofmaterial" status="Approved">Materialart</key>
+   <key locale="de_DE" id="Property{::}A4_VA_Design{::}a4_latest_rev_rtp" status="Approved">Letzte Revsion</key>
+   <key locale="de_DE" id="Property{::}A4_VA_Design{::}a4_latest_rev_typed_rtp" status="Approved">Letzte Revision (typed)</key>
+   <key locale="de_DE" id="Property{::}A4_VA_Design{::}a4_noticeforusagenote" status="Approved">Notiz zum Verwendungshinweis</key>
+   <key locale="de_DE" id="Property{::}A4_VA_Design{::}a4_replacedby" status="Approved">Ersetzt durch</key>
+   <key locale="de_DE" id="Property{::}A4_VA_Design{::}a4_replacementfor" status="Approved">Ersatz für</key>
+   <key locale="de_DE" id="Property{::}A4_VA_Design{::}a4_sap_relevant" status="Approved">SAP relevant</key>
+   <key locale="de_DE" id="Property{::}A4_VA_Design{::}a4_sapno" status="Approved">SAP-Materialnummer</key>
+   <key locale="de_DE" id="Property{::}A4_VA_Design{::}a4_similar_part" status="Approved">ähnliches SAP-Material</key>
+   <key locale="de_DE" id="Property{::}A4_VA_Design{::}a4_usagenote" status="Approved">Verwendungshinweis</key>
+   <key locale="de_DE" id="Property{::}A4_VA_Design{::}a4_weight_for_bom" status="Approved">keine Massenermittlung über STL</key>
+   <key locale="de_DE" id="Property{::}A4_VA_Design{::}object_desc" status="Approved">Zus.-Angaben Bestellg.</key>
+   <key locale="de_DE" id="Property{::}A4_VA_Design{::}object_name" status="Approved">Kurztext DE</key>
+   <key locale="de_DE" id="Property{::}A4_VA_ItemRevision{::}a4_approval_date" status="Approved">Freigegeben am</key>
+   <key locale="de_DE" id="Property{::}A4_VA_ItemRevision{::}a4_approver2" status="Approved">Freigegeben von</key>
+   <key locale="de_DE" id="Property{::}A4_VA_ItemRevision{::}a4_approver" status="Approved">Freigegeben von (intern)</key>
+   <key locale="de_DE" id="Property{::}A4_VA_ItemRevision{::}a4_checked_by2" status="Approved">Geprüft von</key>
+   <key locale="de_DE" id="Property{::}A4_VA_ItemRevision{::}a4_checked_by" status="Approved">Geprüft von (intern)</key>
+   <key locale="de_DE" id="Property{::}A4_VA_ItemRevision{::}a4_checked_date" status="Approved">Geprüft am</key>
+   <key locale="de_DE" id="Property{::}A4_VA_Item{::}a4_e3docs_rtp" status="Approved">E3 Dokumente</key>
+   <key locale="de_DE" id="Property{::}A4_VA_Item{::}a4_latest_rev_rtp" status="Approved">Letzte Revision</key>
+   <key locale="de_DE" id="Property{::}A4_VA_Item{::}a4_latest_rev_typed_rtp" status="Approved">Letzte Revision (typed)</key>
+   <key locale="de_DE" id="Property{::}A4_wf_controlform{::}a4_locked" status="Approved">Gesperrt</key>
+   <key locale="de_DE" id="Property{::}A4_wf_itemattr_tosap{::}a4_critical_part" status="Approved">kritisches Bauteil</key>
+   <key locale="de_DE" id="Property{::}A4_wf_itemattr_tosap{::}a4_replacementfor"
+       status="Approved">Ersatz für</key>
+   <key locale="de_DE" id="Property{::}A4_wf_itemattr_tosap{::}a4_similar_part" status="Approved">ähnliches SAP-Material</key>
+   <key locale="de_DE" id="Property{::}AIAssembly{::}TCAI2_Asm2SubLODPrt_relation"
+       status="Approved">Ersatzkomponente</key>
+   <key locale="de_DE" id="Property{::}AIAssembly{::}TCAI81_ref_link_relation" status="Approved">OLE-Beziehung</key>
+   <key locale="de_DE" id="Property{::}AIDrawing{::}TCAI81_ref_link_relation" status="Approved">OLE-Beziehung</key>
+   <key locale="de_DE" id="Property{::}AIDrawing{::}TCAI_D2A_relation" status="Approved">platzierte Komponente</key>
+   <key locale="de_DE" id="Property{::}AIDrawing{::}TCAI_D2PS_relation" status="Approved">platzierte Präsentation</key>
+   <key locale="de_DE" id="Property{::}AIDrawing{::}TCAI_D2PT_relation" status="Approved">platziertes Bauteil</key>
+   <key locale="de_DE" id="Property{::}AIPart{::}TCAI81_ref_link_relation" status="Approved">OLE-Beziehung</key>
+   <key locale="de_DE" id="Property{::}AIPart{::}TCAI_DERIVEDASSEMBLY_relation" status="Approved">abgeleitete Komponente</key>
+   <key locale="de_DE" id="Property{::}AIPart{::}TCAI_DERIVED_relation" status="Approved">abgeleitete Komponente</key>
+   <key locale="de_DE" id="Property{::}AIPart{::}TCAI_iPart2Factory_relation" status="Approved">Fabrikteil</key>
+   <key locale="de_DE" id="Property{::}AIPresentation{::}TCAI81_ref_link_relation"
+       status="Approved">OLE-Beziehung</key>
+   <key locale="de_DE" id="Property{::}AIPresentation{::}TCAI_PS2A_relation" status="Approved">plazierte Baugruppe</key>
+   <key locale="de_DE" id="Property{::}BOMLine{::}A4_bmkref" status="Approved">BMK Referenz</key>
+   <key locale="de_DE" id="Property{::}BOMLine{::}A4_bmk" status="Approved">BMK</key>
+   <key locale="de_DE" id="Property{::}BOMLine{::}A4_bomtext" status="Approved">Positionstext</key>
+   <key locale="de_DE" id="Property{::}BOMLine{::}A4_electrozdrawing" status="Approved">Position in der Zeichnung</key>
+   <key locale="de_DE" id="Property{::}BOMLine{::}A4_linktype" status="Approved">Verknüpfungsart</key>
+   <key locale="de_DE" id="Property{::}BOMLine{::}A4_pos_type" status="Approved">Positionstyp</key>
+   <key locale="de_DE" id="Property{::}BOMLine{::}A4_refextbom" status="Approved">Referenz externe STL</key>
+   <key locale="de_DE" id="Property{::}BOMLine{::}A4_sparepart" status="Approved">ET-Kenner</key>
+   <key locale="de_DE" id="Property{::}BOMLine{::}A4_subbkm" status="Approved">Sub BMK</key>
+   <key locale="de_DE" id="Property{::}BOMLine{::}A4_wearingpart" status="Approved">VT-Kenner</key>
+   <key locale="de_DE" id="Property{::}BOMLine{::}TCAI_OCC_TYPE" status="Approved">CAD STL-Typ</key>
+   <key locale="de_DE" id="Property{::}BOMLine{::}a4_netweight_cp" status="Approved">Nettogewicht</key>
+   <key locale="de_DE" id="Property{::}BOMLine{::}bl_item_uom_tag" status="Approved">Basismengeneinheit</key>
+   <key locale="de_DE" id="Property{::}BOMLine{::}bl_rev_object_desc" status="Approved">Zus.-Angaben Bestellg.</key>
+   <key locale="de_DE" id="Property{::}Dataset{::}a4_datasettype" status="Approved">VA Dataset Typ</key>
+   <key locale="de_DE" id="Property{::}Dataset{::}a4_dirno" status="Approved">DIS Nr.</key>
+   <key locale="de_DE" id="Property{::}Dataset{::}a4_doccategory" status="Approved">Dok. Kategorie</key>
+   <key locale="de_DE" id="Property{::}Dataset{::}a4_exclude_auxiliary" status="Approved">Kein Viewing</key>
+   <key locale="de_DE" id="Property{::}Dataset{::}a4_file_version" status="Approved">Dateiversion</key>
+   <key locale="de_DE" id="Property{::}Dataset{::}a4_language" status="Approved">Dok. Sprache</key>
+   <key locale="de_DE" id="Property{::}Dataset{::}a4_mi_checkdate" status="Approved">MI Prüfdatum</key>
+   <key locale="de_DE" id="Property{::}Dataset{::}a4_mi_statustext" status="Approved">MI Statustext</key>
+   <key locale="de_DE" id="Property{::}Dataset{::}a4_mi_statusvalue" status="Approved">MI Statuswert</key>
+   <key locale="de_DE" id="Property{::}Dataset{::}a4_psp_status" status="Approved">PSP Status</key>
+   <key locale="de_DE" id="Property{::}Dataset{::}a4_sap_dir_trans_date" status="Approved">SAP DIS Transferdatum</key>
+   <key locale="de_DE" id="Property{::}Dataset{::}a4_sap_dir_trans_status" status="Approved">SAP DIS Transferstatus</key>
+   <key locale="de_DE" id="Property{::}Dataset{::}a4_sourcesystem" status="Approved">Quellsystem</key>
+   <key locale="de_DE" id="Property{::}EPMTask{::}owning_user" status="Invalid">Ersteller</key>
+   <key locale="de_DE" id="Property{::}Fnd0DigitalSignature{::}creation_date" status="Invalid">Unterzeichnungsdatum</key>
+   <key locale="de_DE" id="Property{::}Folder{::}last_mod_date" status="Approved">Änderungsdatum</key>
+   <key locale="de_DE" id="Property{::}Folder{::}owning_user" status="Approved">Eigentümer</key>
+   <key locale="de_DE" id="Property{::}ItemRevision{::}a4_cl_children_rtp" status="Approved">CL untergeordnete Item Revisions</key>
+   <key locale="de_DE" id="Property{::}ItemRevision{::}a4_migrated" status="Approved">Migriert</key>
+   <key locale="de_DE" id="Property{::}ItemRevision{::}a4_sap_bom_trans_date" status="Approved">SAP STL Transferdatum</key>
+   <key locale="de_DE" id="Property{::}ItemRevision{::}a4_sap_bom_trans_status" status="Approved">SAP STL Transferstatus</key>
+   <key locale="de_DE" id="Property{::}ItemRevision{::}a4_sap_mm_trans_date" status="Approved">SAP MM Transferdatum</key>
+   <key locale="de_DE" id="Property{::}ItemRevision{::}a4_uom_tag_cp" status="Approved">Basismengeneinheit</key>
+   <key locale="de_DE" id="Property{::}ItemRevision{::}item_revision_id" status="Approved">Revision</key>
+   <key locale="de_DE" id="Property{::}Item{::}a4_sap_mm_trans_date" status="Approved">SAP MM Transferdatum</key>
+   <key locale="de_DE" id="Property{::}Item{::}a4_sap_mm_trans_status" status="Approved">SAP MM Transferstatus</key>
+   <key locale="de_DE" id="Property{::}Item{::}uom_tag" status="Approved">Basismengeneinheit</key>
+   <key locale="de_DE" id="Property{::}POM_application_object{::}creation_date" status="Approved">Angelegt am</key>
+   <key locale="de_DE" id="Property{::}POM_application_object{::}last_mod_date" status="Approved">Geändert am</key>
+   <key locale="de_DE" id="Property{::}POM_application_object{::}last_mod_user" status="Approved">Geändert von</key>
+   <key locale="de_DE" id="Property{::}POM_application_object{::}owning_user" status="Approved">Angelegt von</key>
+   <key locale="de_DE" id="Property{::}Signoff{::}owning_user" status="Invalid">Ersteller</key>
+   <key locale="de_DE" id="Property{::}WorkspaceObject{::}a4_creator" status="Approved">Angelegt durch</key>
+   <key locale="de_DE" id="ReleaseStatus{::}05e" status="Approved">05e - Vorabuebergabe</key>
+   <key locale="de_DE" id="ReleaseStatus{::}05" status="Approved">05 - Vorabuebergabe</key>
+   <key locale="de_DE" id="ReleaseStatus{::}10" status="Approved">10 - Freigegeben</key>
+   <key locale="de_DE" id="ReleaseStatus{::}70" status="Approved">70 - Veraltet</key>
+   <key locale="de_DE" id="ReleaseStatus{::}95" status="Approved">95 - Gesperrt</key>
+   <key locale="de_DE" id="ReleaseStatus{::}Inaktiv" status="Approved">Inaktiv</key>
+   <key locale="de_DE" id="ReleaseStatus{::}Schreibgeschuetzt" status="Approved">Schreibgeschuetzt</key>
+   <key locale="de_DE" id="View{::}A4_VAview" status="Approved">components list</key>
+   <key locale="de_DE" id="View{::}view" status="Approved">BOM for SAP</key>
+</Add>
+</TcBusinessDataLocalization>

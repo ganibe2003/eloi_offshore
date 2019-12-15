@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--
+Copyright 2017 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+================================================================================
+Copyright 2017.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+================================================================================
+Copyright 2017 Siemens Product Lifecycle Management Software Inc. All Rights Reserved.
+-->
+<package guid="F2697E0D5DEBB5CD13764B207CE75995" packageId="a4vonardenne">
+    <displayName value="${packageId}.displayName"/>
+    <description value="${packageId}.description"/>
+    <contentType value="application"/>
+    <propertyContribution/>
+    <dependencies>
+        <dependency id="autocad" type="requires"/>
+        <dependency id="edaserver" type="requires"/>
+        <dependency id="tcai" type="requires"/>
+        <dependency id="vendormanagement" type="requires"/>
+        <dependency id="cno2validationextension" type="requires"/>
+        <dependency id="cnosoaquery" type="requires"/>
+    </dependencies>
+    <artifact artifactType="fnd0_dataModelArtifact" guid="59374FF0D279A4029F6D0A5B5F0BBF5C">
+        <deploymentActions>
+            <install>
+                <target description="Perform the file deployment actions including unzip, copy, and delete." name="fileProcessing">
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_a4vonardenne_path}/artifacts/a4vonardenne_template.zip"/>
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_a4vonardenne_path}/artifacts/a4vonardenne_install.zip"/>
+                    <copy file="${Teamcenter_a4vonardenne_path}/artifacts/a4vonardenne_icons.zip" todir="${Teamcenter_root_path}/install/a4vonardenne"/>
+                </target>
+                <target description="Perform the operations that must be completed prior to the database being updated." name="preDatabaseUpdate">
+                    <TemplateDeploy name="a4vonardenne"/>
+                </target>
+                <target description="Perform the operations that are database dependent." name="databaseUpdate"/>
+                <target description="Perform the operations that must be completed after the database update has occurred." name="postDatabaseUpdate"/>
+            </install>
+            <update>
+                <target description="Perform the file deployment actions including unzip, copy, and delete." name="fileProcessing">
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_a4vonardenne_path}/artifacts/a4vonardenne_template.zip"/>
+                    <unzip dest="${Teamcenter_root_path}" src="${Teamcenter_a4vonardenne_path}/artifacts/a4vonardenne_install.zip"/>
+                    <copy file="${Teamcenter_a4vonardenne_path}/artifacts/a4vonardenne_icons.zip" force="true" overwrite="true" todir="${Teamcenter_root_path}/install/a4vonardenne"/>
+                </target>
+                <target description="Perform the operations that must be completed prior to the database being updated." name="preDatabaseUpdate">
+                    <TemplateUpdate name="a4vonardenne"/>
+                </target>
+                <target description="Perform the operations that are database dependent." name="databaseUpdate"/>
+                <target description="Perform the operations that must be completed after the database update has occurred." name="postDatabaseUpdate"/>
+            </update>
+        </deploymentActions>
+    </artifact>
+</package>

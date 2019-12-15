@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--
+@<COPYRIGHT>@
+==================================================
+Copyright 2016.
+Siemens Product Lifecycle Management Software Inc.
+All Rights Reserved.
+==================================================
+@<COPYRIGHT>@
+-->
+<localization name="a4vonardenne">
+    <property name="displayName" value="Von Ardenne"/>
+    <property name="description" value="Von Ardenne Template Project"/>
+</localization>

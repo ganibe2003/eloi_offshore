@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TcBusinessData xmlns="http://teamcenter.com/BusinessModel/TcBusinessData" Date="">
+<Change>
+   <TcDatasetReferenceAttach datasetType="MSExcelTemplateX">
+      <TcDatasetReference name="template">
+         <TcDatasetReferenceInfo template="*.xltx" format="BINARY"/>
+         <TcDatasetReferenceInfo template="*.xltm" format="BINARY"/>
+         <TcDatasetReferenceInfo template="*.xlt" format="BINARY"/>
+      </TcDatasetReference>
+   </TcDatasetReferenceAttach>
+   <TcDatasetReferenceAttach datasetType="MSExcelX">
+      <TcDatasetReference name="excel">
+         <TcDatasetReferenceInfo template="*.xlsx" format="BINARY"/>
+         <TcDatasetReferenceInfo template="*.xls" format="BINARY"/>
+         <TcDatasetReferenceInfo template="*.xlsm" format="BINARY"/>
+      </TcDatasetReference>
+   </TcDatasetReferenceAttach>
+   <TcDatasetReferenceAttach datasetType="MSPowerPointX">
+      <TcDatasetReference name="powerpoint">
+         <TcDatasetReferenceInfo template="*.pptx" format="BINARY"/>
+         <TcDatasetReferenceInfo template="*.ppt" format="BINARY"/>
+      </TcDatasetReference>
+   </TcDatasetReferenceAttach>
+   <TcDatasetReferenceAttach datasetType="MSWordX">
+      <TcDatasetReference name="word">
+         <TcDatasetReferenceInfo template="*.docx" format="BINARY"/>
+         <TcDatasetReferenceInfo template="*.doc" format="BINARY"/>
+      </TcDatasetReference>
+   </TcDatasetReferenceAttach>
+</Change>
+</TcBusinessData>

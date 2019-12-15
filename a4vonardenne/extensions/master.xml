@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TcBusinessDataIncludes>
+    <include file="default.xml"/>
+    <include file="cno.xml"/>
+    <include file="office.xml"/>
+    <include file="workflow_template_filter.xml"/>
+</TcBusinessDataIncludes>
